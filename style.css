@@ -1,0 +1,27 @@
+#image-container, #content-head, #content-tail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#tag{
+    color: orange;
+    font-size: 2.6rem;
+    font-weight: bolder;
+    padding: 2rem 0rem;
+}
+.button{
+    background-color: rgb(16, 173, 166);
+    padding: 1rem;
+}
+
+#banner-right{
+    background-image: url(./images/banner-dec-right.png);
+    height: 100vh;
+    width: 100vw;
+}
+#banner-right img{
+    float: right;
+}
+#content{
+    margin-top: 12rem;
+}
